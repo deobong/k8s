@@ -1,0 +1,58 @@
+Máy ảo
+hyper type 1: tương tác trực tiếp với phần cứng hiệu suất cao hơn, Exi, vmware,promox
+hyper type 2: tương tác qua OS của host : virtual box, vmware player
+
+Step 1: Enable Hyper-V and WSL 2
+wsl --install
+Step 2: Download Docker Desktop for Windows
+Step 3: Install Docker Desktop
+Step 4: Verify Installation
+docker --version
+Step 5: Run Your First Docker Container
+docker run hello-world
+Basic Docker Commands
+Here are a few basic Docker commands to get you started:
+
+docker run [image]: Runs a container from an image.
+docker ps: Lists running containers.
+docker images: Lists images that are locally stored.
+docker pull [image]: Pulls an image from Docker Hub.
+docker rm [container id]: Removes a container.
+docker rmi [image id]: Removes an image.
+cài docker desktop
+*làm việc với dockerhub
+https://tedu.com.vn/kien-thuc/bai-7-lam-viec-voi-docker-hub-390.html
+vim , cat , notepad index.html
+cài git có sẵn vim cho windows
+
+* git SCM (có lựa chọn nano,vim..)
+git config --global user.name <username>
+git config --global user.email <username>
+…or create a new repository on the command line
+echo "# hello-nodejs" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/deobong/n8n.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/deobong/n8n.git
+git branch -M main
+git push -u origin main
+
+chuyển đến nhánh
+git switch develop
+ls
+git checkout -b develep tạo nhánh mới rẽ ngay nhánh đó
+git rm "README.md"
+git commit -am 
+git branch -d tên_nhánh xoá nhanh
+(git pull, push mới đồng bộ  github)
+git push origin --delete develop xoá nhánh
+ git push origin --force --all đống bộ
+làm việc với vue, react thường làm việc với npm package manager (node) npx (tool node)
+buid các ứng dụng dotnet dùng netcore sdk
+*terraform
+https://github.com/cloudxeus/terraform-azure
+https://www.youtube.com/watch?v=xDVSYVGBPks
